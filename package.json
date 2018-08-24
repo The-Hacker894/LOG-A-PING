@@ -1,0 +1,11 @@
+{
+  "name": "log-a-ping",
+  "version": "1.0.0",
+  "description": "This bot will basically log messages that ping you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TheHacker",
+  "license": "MIT"
+}
