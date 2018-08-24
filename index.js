@@ -19,7 +19,7 @@ const moment = require('moment')
 
 client.on("ready", () => {
     console.log("Logged on as " + client.user.tag)
-    console.log("Client ID -> " + config.clientID)
+    console.log("Client ID -> " + client.user.id)
 
 
     // Just to make sure we have the config.json
