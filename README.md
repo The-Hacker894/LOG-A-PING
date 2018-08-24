@@ -15,7 +15,7 @@ Log-A-PING is a Discord self-bot written in [NodeJS](https://nodejs.org) utilizi
 ## How To Run
 
 1. Navigate to the `LOG-A-PING` directory  
-2. Install the NPM packages using `npm update`  
+2. Install the NPM packages using `npm install` **(you may need to use** `sudo` **on macOS and Linux)**  
 3. Put your token where it says `insert token here` in `./data/config.json`
 4. Start the bot by using `node index.js`  
   
