@@ -11,6 +11,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client({autoReconnect:true});
 const config = require('./data/config.json')
 const token = config.token // Place yo token in the config.json boi
+const moment = require('moment')
 
 /*
     REQUESTED BY raizo#0001
