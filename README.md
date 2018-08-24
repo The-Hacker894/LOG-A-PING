@@ -8,7 +8,9 @@ Log-A-PING is a Discord self-bot written in [NodeJS](https://nodejs.org) utilizi
 - DiscordJS v11.3 or newer  
 - Your token  
   
-![](https://www.hacker-hub.com/images/gettoken.png) 
+![](https://www.hacker-hub.com/images/gettoken.png)   
+  
+*The token has been redacted from this image for obvious security reasons*
 
 ## How To Run
 
