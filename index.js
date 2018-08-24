@@ -28,6 +28,9 @@ client.on("ready", () => {
             console.log("./data/config.json does not exist")
         }, 2000)
     }
+    if(!fs.existsSync(`./data/logs`)) { // Checks to make sure the log folder exists, because GitHub deletes empty folders
+    fs.mkdirSync(`./data/logs`))
+    }
 })
 
 client.on("message", (message) => {
