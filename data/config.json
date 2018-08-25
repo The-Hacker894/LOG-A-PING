@@ -1,4 +1,5 @@
 {
     "token":"insert token here",
-    "prefix": "s!"
+    "prefix": "s!",
+    "versionURL": "https://raw.githubusercontent.com/The-Hacker894/LOG-A-PING/master/version.txt" 
 }
