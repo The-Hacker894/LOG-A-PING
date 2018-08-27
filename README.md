@@ -34,4 +34,4 @@ If you've done everything correctly, the self-bot should start logging pings in 
 
 - [DiscordJS](https://discord.js.org)  
 - [MomentJS](https://momentjs.com/)
-- raizo#0001 for requesting this bot
+- [raizo](https://github.com/iraizo)
