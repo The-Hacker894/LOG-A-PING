@@ -8,7 +8,8 @@ import sys
 import time
 import subprocess
 import config
-url = config.versionurl
+from git import Repo
+url = str(config.versionurl)
 r = requests.get(url)
 cache = r.text  # version with dots
 currentversion = cache.replace(".", "")  # version without dots
@@ -29,19 +30,9 @@ localversion.strip()
 currentversion.strip()
 if int(currentversion) != int(localversion):  # checking if new version is available
     print("update is available")
-    # asking for path
-    path = input("put in the path where you want to download it: ")
-    try:
-        print("Downloading update..")
-        subprocess.call([
-            'git',
-            'clone',
-            '' + config.repourl,
-            str(path)
-        ])
-    except Exception as e:
-        print(e)
-        print("Report this error to https://github.com/iraizo")
+    path = input("put in the path where you want to download it: ") # asking for path
+    print("Downloading update..")
+    Repo.clone_from(config.repourl, path)
 else:
     print("No update found.")
     print("Youre good to go.")
